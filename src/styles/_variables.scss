@@ -1,0 +1,7 @@
+$primaryColor: #fc6821;
+$secondaryColor: #2063A4;
+
+$mobileMaxWidth: 799px;
+
+// exports
+@value mobileMaxWidth #{$mobileMaxWidth};
