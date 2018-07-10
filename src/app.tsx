@@ -9,6 +9,7 @@ interface AppProps {
   title: string;
 }
 
+//don't see what's this
 const store = configureStore();
 configureMainServices(store);
 

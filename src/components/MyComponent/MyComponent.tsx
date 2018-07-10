@@ -25,7 +25,7 @@ class MyComponent extends React.Component<AppProps, AppState> {
   public render() {
     const { time } = this.state;
     const [elapsedSec, timeSec] = [MyComponent.getElapsed(time), time].map(value => MyComponent.getSeconds(value));
-    return <MyInput time={timeSec} elapsed={elapsedSec} />;
+    return <MyInput text={timeSec}  />;
   }
 
   public componentDidMount() {
