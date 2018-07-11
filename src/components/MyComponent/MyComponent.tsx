@@ -1,6 +1,6 @@
 import * as React from 'react';
-import TimeView from '../../views/TimeView/TimeView';
-import MyInput from '../../views/TimeView/TimeView';
+import { getSeconds } from '../../services/time-service';
+import Time from '../Time/Time';
 
 export interface AppProps {
 }
@@ -14,18 +14,8 @@ interface AppState {
 class MyComponent extends React.Component<AppProps, AppState> {
   private intervalId: number;
 
-  constructor(props: AppProps) {
-    super(props);
-
-    this.state = {
-      time: Date.now(),
-    };
-  }
-
   public render() {
-    const { time } = this.state;
-    const [elapsedSec, timeSec] = [MyComponent.getElapsed(time), time].map(value => MyComponent.getSeconds(value));
-    return <MyInput text={timeSec}  />;
+    return <Time current={getSeconds(Date.now())} />;
   }
 
   public componentDidMount() {
@@ -37,14 +27,6 @@ class MyComponent extends React.Component<AppProps, AppState> {
   public componentWillUnmount() {
     clearInterval(this.intervalId);
     this.intervalId = null;
-  }
-
-  private static getSeconds(timestamp: Timestamp): number {
-    return Math.floor(timestamp / 1000);
-  }
-
-  private static getElapsed(start: number) {
-    return Date.now() - start;
   }
 
   private update = () => {
