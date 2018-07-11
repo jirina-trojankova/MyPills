@@ -1,3 +1,5 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 class Form extends React.Component {
     constructor() {
@@ -61,7 +63,7 @@ class Input extends React.Component {
 class Headline extends React.Component {
     render() {
         return(
-            <h1>{this.props.passedValue}</h1>
+            <h1>This is headline:{this.props.passedValue}</h1>
         );
     }
 }

@@ -4,7 +4,7 @@ import * as style from './style.scss';
 const MyInput = (props) => {
   return <div>
     <form>
-    <input type="text" />
+    <input type="text" value={props.text} />
     <input type="submit" value="Submit" />
     </form>
   </div>;
