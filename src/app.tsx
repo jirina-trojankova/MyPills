@@ -2,17 +2,17 @@ import * as React from 'react';
 import { render } from 'react-dom';
 import MyComponent from './components/MyComponent/MyComponent'
 
-// interface AppProps {
-//   title: string;
-// }
+interface AppProps {
+  title: string;
+ }
 
 // const store = configureStore();
 // configureMainServices(store);
 
-const App = (props) => (
+const App = (props: AppProps) => (
     <div>
       <h1>{props.title}</h1>
-      <Main/>
+      <MyComponent/>
       <br/>
     </div>
 );
@@ -23,4 +23,4 @@ const renderApp = () => {
     };
 
 
-// renderApp();
+renderApp();
