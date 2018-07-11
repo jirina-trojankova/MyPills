@@ -25,7 +25,7 @@ const App = (props: AppProps) => (
 
 
 const renderApp = () => {
-  render(<App title="Don't forget your pill"/>, document.getElementById('app'));
+  render(<App title="This is header from App"/>, document.getElementById('app'));
 };
 
 if ((module as any).hot) {
