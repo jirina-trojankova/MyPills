@@ -1,15 +1,21 @@
 import * as React from 'react';
+import * as style from './style.scss';
 
 interface HeadlineViewProps {
-    data: number;
+  headlineCounter:number;
+  setHeadlineCounterHandler: (val: number) => void;
 }
 
-const HeadlineView = (props: HeadlineViewProps) => {
-    return(
-      <div>
-          number = {props.data}
-      </div>
-  );
+const HeadlineView = (props:HeadlineViewProps) => {
+  // data
+  const {headlineCounter} = props;
+  // handlers
+  const {setHeadlineCounterHandler} = props;
+
+  return <div>
+    <h1 className={style.crimsonColor}>Headline counter: {headlineCounter}</h1>
+    <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>
+  </div>;
 };
 
 export default HeadlineView;

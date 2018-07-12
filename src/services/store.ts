@@ -1,6 +1,6 @@
 import { applyMiddleware, createStore, Store } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import { rootReducer, RootState } from './root-reducer';
+import rootReducer, { RootState } from '../reducers/index';
 
 export const configureStore = (initialState?: RootState): Store => {
   const enhancer = applyMiddleware(thunkMiddleware);
@@ -8,8 +8,8 @@ export const configureStore = (initialState?: RootState): Store => {
     createStore(rootReducer, initialState, enhancer);
 
   if ((module as any).hot) {
-    (module as any).hot.accept('../reducers/root-reducer', () => {
-      const nextReducer = require('../reducers/root-reducer').rootReducer;
+    (module as any).hot.accept('../reducers/index', () => {
+      const nextReducer = require('../reducers/index').rootReducer;
       store.replaceReducer(nextReducer);
     });
   }
