@@ -1,9 +1,14 @@
 import * as React from 'react';
+import Headline from '../Headline/Headline';
 
 class MyComponent extends React.Component {
 
 public render() {
-    return <h1>Main Component</h1>
+    return (
+    <div>
+    <h1>Main Component</h1>
+    <Headline />
+    </div>);
     }
 }
 
