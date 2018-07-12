@@ -15,6 +15,8 @@ const HeadlineView = (props:HeadlineViewProps) => {
   return <div>
     <h1 className={style.crimsonColor}>Headline counter: {headlineCounter}</h1>
     <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>
+    <button onClick={() => setHeadlineCounterHandler(headlineCounter - 1)}>Decrement</button>
+
   </div>;
 };
 

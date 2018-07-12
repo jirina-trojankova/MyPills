@@ -20,7 +20,8 @@ const App = (props: AppProps) => (
 
 
 const renderApp = () => {
-  render(<App title="React app."/>, document.getElementById('app'));
+  render(<App title="React app."/>,
+      document.getElementById('app'));
 };
 
 if ((module as any).hot) {
