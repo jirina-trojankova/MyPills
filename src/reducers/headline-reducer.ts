@@ -5,7 +5,7 @@ export interface HeadlineState {
 }
 
 const defaultState:HeadlineState = {
-  headlineCounter:0,
+  headlineCounter:1,
 };
 
 const headlineReducer = (state:HeadlineState = defaultState, action):HeadlineState => {
@@ -23,3 +23,5 @@ const headlineReducer = (state:HeadlineState = defaultState, action):HeadlineSta
 };
 
 export default headlineReducer;
+
+// reducer has that function that chooses the state, which is passed to component

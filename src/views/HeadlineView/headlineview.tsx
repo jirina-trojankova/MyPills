@@ -13,11 +13,12 @@ const HeadlineView = (props:HeadlineViewProps) => {
   const {setHeadlineCounterHandler} = props;
 
   return <div>
-    <h1 className={style.crimsonColor}>Headline counter: {headlineCounter}</h1>
-    <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>
-    <button onClick={() => setHeadlineCounterHandler(headlineCounter - 1)}>Decrement</button>
-
-  </div>;
+          <h1 className={style.crimsonColor}>Headline counter: {headlineCounter}</h1>
+          <input type="text" />
+          <button onClick={() => setHeadlineCounterHandler(headlineCounter - 1)}>Decrement</button>
+          <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>
+          </div>;
 };
 
 export default HeadlineView;
+// component which takes headlineCounter and setHeadlineCounterHandler as props
