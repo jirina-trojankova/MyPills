@@ -1,11 +1,20 @@
 import * as React from 'react';
+import { connect } from 'react-redux';
+import { RootState } from '../../reducers/root-reducer';
+import HeadlineView from '../../views/HeadlineView/HeadlineView';
 
-class Headline extends React.Component {
-    render() {
-        return(
-            <h1>Headline</h1>
-        );
-    }
-}
+const mapStateToProps = (state: RootState, props) => ({
+    data: state.headline.data,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+
+});
+
+const Headline = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(HeadlineView);
 
 export default Headline;
+

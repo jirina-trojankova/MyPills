@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import MyComponent from './components/MyComponent/MyComponent'
+import Headline from './components/Headline/Headline';
 
 interface AppProps {
   title: string;
@@ -12,7 +12,7 @@ interface AppProps {
 const App = (props: AppProps) => (
     <div>
       <h1>{props.title}</h1>
-      <MyComponent/>
+      <Headline/>
       <br/>
     </div>
 );

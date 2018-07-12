@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import { settingsReducer, SettingsState } from './settings-reducer';
+import { headlineReducer, HeadlineState } from './settings-reducer';
 
 export interface RootState {
-  settings: SettingsState;
+  headline: HeadlineState;
 }
 
 export const rootReducer = combineReducers({
-  settings: settingsReducer,
+  headline: headlineReducer,
 });
