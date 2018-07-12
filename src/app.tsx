@@ -17,7 +17,6 @@ const App = (props: AppProps) => (
     </div>
 );
 
-
 const renderApp = () => {
     render(<App title="React app."/>, document.getElementById('app'));
     };

@@ -8,6 +8,7 @@ class Form extends React.Component {
         };
     }
     
+    
     formHandler(data) {
         this.setState({
             fromChild: data
@@ -19,7 +20,7 @@ class Form extends React.Component {
         return(
             <div>
                 <Headline passedValue={this.state.fromChild} />
-                <Input propsFromParent={this.formHandler} />
+                <Input propsHandler={this.formHandler} />
             </div>
         );
     }
@@ -40,7 +41,7 @@ class Input extends React.Component {
     
     handleSubmit(event) {
         event.preventDefault();
-        this.props.propsFromParent(this.state.value);
+        this.props.propsHandler(this.state.value);
         this.setState({value: ''});
 
     }
