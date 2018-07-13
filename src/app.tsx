@@ -14,7 +14,7 @@ const App = (props: AppProps) => (
   <Provider store={store}>
     <div>
       <Headline />
-      // where do you take the Headline?!
+      {/*// where do you take the Headline?!*/}
     </div>
   </Provider>
 );

@@ -7,7 +7,7 @@ export interface HeadlineState {
 const defaultState:HeadlineState = {
   headlineCounter:1,
 };
-
+// where you take action.type
 const headlineReducer = (state:HeadlineState = defaultState, action):HeadlineState => {
   switch(action.type) {
     case SET_HEADLINE_COUNTER: {
