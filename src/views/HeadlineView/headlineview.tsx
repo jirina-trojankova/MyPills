@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as style from './style.scss';
+// WHY VOID?!
 
-interface HeadlineViewProps {
+/*interface HeadlineViewProps {
   headlineCounter:number;
   setHeadlineCounterHandler: (val: number) => void;
 }
@@ -10,13 +11,23 @@ const HeadlineView = (props:HeadlineViewProps) => {
   // data
   const {headlineCounter} = props;
   // handlers
-  const {setHeadlineCounterHandler} = props;
+  const {setHeadlineCounterHandler} = props;*/
+
+interface HeadlineViewProps {
+  headlineName: 'string';
+  setHeadlineNameHandler: (val: string) => void;
+}
+
+const HeadlineView = (props:HeadlineViewProps) => {
+  const {headlineName} = props;
+  const {setHeadlineNameHandler} = props;
 
   return <div>
-          <h1 className={style.crimsonColor}>Headline counter: {headlineCounter}</h1>
+          <h1 className={style.crimsonColor}>Headline name: {headlineName}</h1>
           <input type="text" />
-          <button onClick={() => setHeadlineCounterHandler(headlineCounter - 1)}>Decrement</button>
-          <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>
+          <button onClick={ () => setHeadlineNameHandler (headlineName)}>Submit</button>
+          {/*<button onClick={() => setHeadlineCounterHandler(headlineCounter - 1)}>Decrement</button>
+          <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>*/}
           </div>;
 };
 

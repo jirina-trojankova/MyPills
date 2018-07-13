@@ -1,4 +1,4 @@
-import { SET_HEADLINE_COUNTER } from '../actions/headline-actions';
+/*import { SET_HEADLINE_COUNTER } from '../actions/headline-actions';
 
 export interface HeadlineState {
   headlineCounter:number;
@@ -22,6 +22,34 @@ const headlineReducer = (state:HeadlineState = defaultState, action):HeadlineSta
   }
 };
 
+export default headlineReducer;*/
+
+
+
+import { SET_HEADLINE_NAME } from "../actions/headline-actions";
+
+export interface HeadlineState {
+  headlineName:string;
+}
+
+const defaultState:HeadlineState = {
+  headlineName: 'My test name',
+};
+
+const headlineReducer = (state:HeadlineState = defaultState, action): HeadlineState => {
+  switch(action.type) {
+    case  SET_HEADLINE_NAME: {
+      const {val} = action;
+      return {
+        ...state,
+        headlineName: val,
+      };
+    }
+    default:
+      return state;
+  }
+}
+
 export default headlineReducer;
 
-// reducer has that function that chooses the state, which is passed to component
+

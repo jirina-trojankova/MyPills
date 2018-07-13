@@ -1,4 +1,4 @@
-import { connect } from 'react-redux';
+/*import { connect } from 'react-redux';
 import { setHeadlineCounter } from '../../actions/headline-actions';
 import { RootState } from '../../reducers';
 import HeadlineView from '../../views/HeadlineView/HeadlineView';
@@ -14,4 +14,23 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(HeadlineView);
+)(HeadlineView);*/
+
+import { connect } from 'react-redux';
+import { setHeadlineName } from '../../actions/headline-actions';
+import { RootState } from '../../reducers';
+import HeadlineView from '../../views/HeadlineView/headlineview';
+
+const mapStateToProps = (state: RootState) => ({
+  headlineName: state.headline.headlineName,
+});
+
+const mapDispatchToProps = dispatch => ({
+  setHeadlineNameHandler: (val: string) => dispatch(setHeadlineName(val)),
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+) (HeadlineView);
+
