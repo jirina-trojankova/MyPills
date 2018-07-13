@@ -1,5 +1,6 @@
 /*import { SET_HEADLINE_COUNTER } from '../actions/headline-actions';
 
+
 export interface HeadlineState {
   headlineCounter:number;
 }
@@ -25,8 +26,7 @@ const headlineReducer = (state:HeadlineState = defaultState, action):HeadlineSta
 export default headlineReducer;*/
 
 
-
-import { SET_HEADLINE_NAME } from "../actions/headline-actions";
+import { SET_HEADLINE_NAME } from '../actions/headline-actions';
 
 export interface HeadlineState {
   headlineName:string;
@@ -48,7 +48,7 @@ const headlineReducer = (state:HeadlineState = defaultState, action): HeadlineSt
     default:
       return state;
   }
-}
+};
 
 export default headlineReducer;
 

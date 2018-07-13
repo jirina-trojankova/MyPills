@@ -12,8 +12,3 @@ export const setHeadlineName =  (val: string) => ({
   val,
 })
 
-/*
-// action is passed to reducer where it creates states
-// state is in component than mapped to props
-//            passed to component which dispatches it to props
-// it connects it with headline view*/
