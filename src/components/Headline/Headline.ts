@@ -17,7 +17,7 @@ export default connect(
 )(HeadlineView);*/
 
 import { connect } from 'react-redux';
-import { setInputValue, setNewHeadline } from "../../actions/headline-actions";
+import { setInputValue, setNewHeadline } from '../../actions/headline-actions';
 import { RootState } from '../../reducers';
 import HeadlineView from '../../views/HeadlineView/headlineview';
 

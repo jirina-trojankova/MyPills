@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03eeef65-6d80-46c1-b98e-7a21c37d8890" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/headline-actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/headline-actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Headline/Headline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Headline/Headline.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/headline-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/headline-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HeadlineView/headlineview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HeadlineView/headlineview.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="03eeef65-6d80-46c1-b98e-7a21c37d8890" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -58,11 +52,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="headline-reducer.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="headline-reducer.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/reducers/headline-reducer.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+                <state relative-caret-position="189">
+                  <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -82,11 +76,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Headline.ts" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Headline.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Headline/Headline.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+                <state relative-caret-position="333">
+                  <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#539#577#0" expanded="true" />
@@ -330,7 +324,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27955000" />
+    <option name="totallyTimeSpent" value="28737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
@@ -782,17 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Headline/Headline.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#539#577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/headline-actions.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -805,10 +788,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/headline-reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="189">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Headline/Headline.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#539#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
