@@ -26,23 +26,33 @@ const headlineReducer = (state:HeadlineState = defaultState, action):HeadlineSta
 export default headlineReducer;*/
 
 
-import { SET_HEADLINE_NAME } from '../actions/headline-actions';
+import { SET_INPUT_VALUE, SET_NEW_HEADLINE } from "../actions/headline-actions";
 
 export interface HeadlineState {
   headlineName:string;
+  inputValue: string;
 }
 
 const defaultState:HeadlineState = {
   headlineName: 'My test name',
+  inputValue: '',
 };
+
+
 
 const headlineReducer = (state:HeadlineState = defaultState, action): HeadlineState => {
   switch(action.type) {
-    case  SET_HEADLINE_NAME: {
+    case  SET_INPUT_VALUE: {
       const {val} = action;
       return {
         ...state,
-        headlineName: val,
+        inputValue: val,
+      };
+    }
+    case SET_NEW_HEADLINE: {
+      return {
+        ...state,
+        headlineName: state.inputValue,
       };
     }
     default:

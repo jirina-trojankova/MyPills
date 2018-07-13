@@ -17,16 +17,18 @@ export default connect(
 )(HeadlineView);*/
 
 import { connect } from 'react-redux';
-import { setHeadlineName } from '../../actions/headline-actions';
+import { setInputValue, setNewHeadline } from "../../actions/headline-actions";
 import { RootState } from '../../reducers';
 import HeadlineView from '../../views/HeadlineView/headlineview';
 
 const mapStateToProps = (state: RootState) => ({
   headlineName: state.headline.headlineName,
+  inputValue: state.headline.inputValue,
 });
 
 const mapDispatchToProps = dispatch => ({
-  setHeadlineNameHandler: (val: string) => dispatch(setHeadlineName(val)),
+  setInputValueHandler: (val: string) => dispatch(setInputValue(val)),
+  handleSubmit: () => dispatch(setNewHeadline()),
 });
 
 export default connect(

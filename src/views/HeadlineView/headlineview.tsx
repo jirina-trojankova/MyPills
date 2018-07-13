@@ -14,20 +14,24 @@ const HeadlineView = (props:HeadlineViewProps) => {
   const {setHeadlineCounterHandler} = props;*/
 
 interface HeadlineViewProps {
-  headlineName: 'string';
-  setHeadlineNameHandler: (val: string) => void;
+  headlineName: string;
+  inputValue: string;
+  setInputValueHandler: (val: string) => void;
+  handleSubmit: () => void;
 }
 
 const HeadlineView = (props:HeadlineViewProps) => {
-  const {headlineName} = props;
-  const {setHeadlineNameHandler} = props;
+  const {headlineName, inputValue} = props;
+  const {setInputValueHandler} = props;
+  const {handleSubmit} = props;
 
   return <div>
           <h1 className={style.crimsonColor}>Headline name: {headlineName}</h1>
-          <input type="text" value={headlineName} onChange={ (val) => setHeadlineNameHandler(val.target.value)}/>
-
+              <input type="text" value={inputValue} onChange={ (event) => setInputValueHandler(event.target.value)}/>
+    <button onClick={handleSubmit}>Button</button>
           {/*<button onClick={() => setHeadlineCounterHandler(headlineCounter - 1)}>Decrement</button>
           <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>*/}
+
           </div>;
 };
 
