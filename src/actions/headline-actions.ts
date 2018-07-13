@@ -10,5 +10,5 @@ export const SET_HEADLINE_NAME = 'SET_HEADLINE_NAME';
 export const setHeadlineName =  (val: string) => ({
   type: SET_HEADLINE_NAME,
   val,
-})
+});
 
