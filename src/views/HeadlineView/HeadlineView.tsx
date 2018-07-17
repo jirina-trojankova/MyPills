@@ -10,7 +10,6 @@ const HeadlineView = (props) => {
               <h1 className={style.crimsonColor}>Headline name: {headlineName}</h1>
               <input type="text" value={inputValue} onChange={ (event) => setInputValueHandler(event.target.value)}/>
               <button onClick={handleSubmit}>Button</button>
-
           </div>;
 };
 
