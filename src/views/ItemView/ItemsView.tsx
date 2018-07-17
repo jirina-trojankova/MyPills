@@ -1,10 +1,11 @@
 import * as React from 'react';
+import ItemView from './ItemView';
 
-const ItemsView = (props, index) => {
+const ItemsView = (props) => {
   return  <div>
                 <ul>
-                  {props.items.map((name) =>
-                    <li key={index}>{name.name}</li>)}
+                  {props.items.map((item) =>
+                    <ItemView item={item} key={item.name}/>)}
                 </ul>
           </div>;
 };

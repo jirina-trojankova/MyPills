@@ -1,11 +1,7 @@
 import * as React from 'react';
 
 const ItemView = (props) => {
-  return <div>
-          <ul>
-            <li>{props.item.name}</li>
-          </ul>
-        </div>;
+  return  <li>{props.item.name}</li>;
 };
 
 export default ItemView;

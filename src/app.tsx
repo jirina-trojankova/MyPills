@@ -3,6 +3,8 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { default as Headline } from './components/Headline/Headline';
 import { configureStore } from './services/store';
+import UrlConfig from './url_config';
+import HeaderView from './views/HeadlineView/HeaderView';
 import ItemsView from './views/ItemView/ItemsView';
 import ItemView from './views/ItemView/ItemView';
 
@@ -11,6 +13,7 @@ const dummyItem = {
   name: 'Aspirin',
 };
 
+// name is unique
 const dummyItemArray = [
   {name: 'Aspirin'},
   {name: 'Panadol'},
@@ -20,10 +23,10 @@ const dummyItemArray = [
 const App = (props) => (
   <Provider store={store}>
     <div>
+      <HeaderView config={UrlConfig} />
       <Headline myProp={1} />
       <ItemsView items={dummyItemArray}></ItemsView>
       <ItemView item={dummyItem} />
-
     </div>
   </Provider>
 );
