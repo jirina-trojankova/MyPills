@@ -26,7 +26,7 @@ const headlineReducer = (state:HeadlineState = defaultState, action):HeadlineSta
 export default headlineReducer;*/
 
 
-import { SET_INPUT_VALUE, SET_NEW_HEADLINE } from "../actions/headline-actions";
+import { SET_INPUT_VALUE, SET_NEW_HEADLINE } from '../actions/headline-actions';
 
 export interface HeadlineState {
   headlineName:string;
