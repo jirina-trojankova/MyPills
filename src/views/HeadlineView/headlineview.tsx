@@ -26,9 +26,9 @@ const HeadlineView = (props:HeadlineViewProps) => {
   const {handleSubmit} = props;
 
   return <div>
-          <h1 className={style.crimsonColor}>Headline name: {headlineName}</h1>
+              <h1 className={style.crimsonColor}>Headline name: {headlineName}</h1>
               <input type="text" value={inputValue} onChange={ (event) => setInputValueHandler(event.target.value)}/>
-    <button onClick={handleSubmit}>Button</button>
+              <button onClick={handleSubmit}>Button</button>
           {/*<button onClick={() => setHeadlineCounterHandler(headlineCounter - 1)}>Decrement</button>
           <button onClick={() => setHeadlineCounterHandler(headlineCounter + 1)}>Increment</button>*/}
 
