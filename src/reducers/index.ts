@@ -1,9 +1,5 @@
 import { combineReducers } from 'redux';
-import headlineReducer, { HeadlineState } from './headline-reducer';
-
-export interface RootState {
-headline: HeadlineState;
-}
+import headlineReducer  from './headline-reducer';
 
 export default combineReducers({
   headline: headlineReducer,

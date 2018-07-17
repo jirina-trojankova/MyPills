@@ -1,8 +1,8 @@
-import { applyMiddleware, createStore, Store } from 'redux';
+import { applyMiddleware, createStore } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import rootReducer, { RootState } from '../reducers/index';
+import rootReducer  from '../reducers/index';
 
-export const configureStore = (initialState?: RootState): Store => {
+export const configureStore = (initialState) => {
   const enhancer = applyMiddleware(thunkMiddleware);
   const store = !initialState ? createStore(rootReducer, enhancer) :
     createStore(rootReducer, initialState, enhancer);

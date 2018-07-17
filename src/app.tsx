@@ -1,19 +1,15 @@
 import * as React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import Headline from './components/Headline/Headline';
+import { default as Headline } from './components/Headline/Headline';
 import { configureStore } from './services/store';
-
-interface AppProps {
-  title: string;
-}
 
 const store = configureStore();
 
-const App = (props: AppProps) => (
+const App = (props) => (
   <Provider store={store}>
     <div>
-      <Headline />
+      <Headline myProp={1} />
     </div>
   </Provider>
 );

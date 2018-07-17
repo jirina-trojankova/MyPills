@@ -1,10 +1,3 @@
-/*export const SET_HEADLINE_COUNTER = 'SET_HEADLINE_COUNTER';
-
-export const setHeadlineCounter = (val:number) => ({
-  type: SET_HEADLINE_COUNTER,
-  val,
-});*/
-
 export const SET_INPUT_VALUE = 'SET_INPUT_VALUE';
 export const SET_NEW_HEADLINE = 'SET_NEW_HEADLINE';
 
