@@ -2,10 +2,11 @@ import * as React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { default as Headline } from './components/Headline/Headline';
+import * as style from './main-style.scss';
 import { configureStore } from './services/store';
 import UrlConfig from './url_config';
 import HeaderView from './views/HeadlineView/HeaderView';
-import ItemsView from './views/ItemView/ItemsView';
+import ItemsView from './views/ItemsView/ItemsView';
 import ItemView from './views/ItemView/ItemView';
 
 const store = configureStore();
@@ -22,7 +23,7 @@ const dummyItemArray = [
 
 const App = (props) => (
   <Provider store={store}>
-    <div>
+    <div className={style.page}>
       <HeaderView config={UrlConfig} />
       <Headline myProp={1} />
       <ItemsView items={dummyItemArray}></ItemsView>

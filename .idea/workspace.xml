@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03eeef65-6d80-46c1-b98e-7a21c37d8890" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/views/HeadlineView/HeaderView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HeadlineView/HeaderView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/HeadlineView/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HeadlineView/Link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HeadlineView/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HeadlineView/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HeadlineView/style.scss.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HeadlineView/style.scss.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ItemView/ItemsView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ItemsView/ItemsView.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57199055">
+    <splitter split-orientation="horizontal" split-proportion="0.4382376">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="url_config.js" pinned="false" current-in-tab="false">
@@ -28,11 +34,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.tsx" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.tsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="224">
-                  <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+                <state relative-caret-position="71">
+                  <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -40,21 +46,41 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="main-style.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main-style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/webpack.prod.js">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+                </state>
+              </provider>
             </entry>
           </file>
-          <file leaf-file-name="webpack.localhost.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/webpack.localhost.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file leaf-file-name="Link.tsx" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Link.tsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/Link.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.scss.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/style.scss.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="25" selection-start-column="13" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -68,23 +94,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ItemView.tsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/views/ItemView/ItemView.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="HeaderView.tsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/HeaderView.tsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
-                  <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                  <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -94,10 +120,10 @@
       <split-second>
         <leaf>
           <file leaf-file-name="ItemsView.tsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/views/ItemView/ItemsView.tsx">
+            <entry file="file://$PROJECT_DIR$/src/views/ItemsView/ItemsView.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -117,8 +143,8 @@
           <file leaf-file-name="Link.tsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/Link.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+                <state relative-caret-position="102">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -132,6 +158,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="tsconfig.json" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -156,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/views/HeadlineView/style.scss" />
         <option value="$PROJECT_DIR$/../Pills2/src/views/HeadlineView/HeadlineView.tsx" />
         <option value="$PROJECT_DIR$/src/views/InputView/InputView.tsx" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
@@ -177,9 +203,12 @@
         <option value="$PROJECT_DIR$/src/url_config.json" />
         <option value="$PROJECT_DIR$/src/url_config.js" />
         <option value="$PROJECT_DIR$/src/views/ItemView/ItemsView.tsx" />
-        <option value="$PROJECT_DIR$/src/app.tsx" />
         <option value="$PROJECT_DIR$/src/views/HeadlineView/HeaderView.tsx" />
         <option value="$PROJECT_DIR$/src/views/HeadlineView/Link.tsx" />
+        <option value="$PROJECT_DIR$/src/views/HeadlineView/style.scss" />
+        <option value="$PROJECT_DIR$/src/main-style.scss" />
+        <option value="$PROJECT_DIR$/src/app.tsx" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -226,58 +255,6 @@
               <item name="MyPills" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Headline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ItemView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="HeadlineView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPills" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPills" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="ItemView" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -288,6 +265,7 @@
     <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/jir/MyPills/src/app.tsx" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\jir\MyPills\node_modules\tslint" />
@@ -296,6 +274,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\jir\Pills\node_modules\typescript\lib" />
     <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\jir\MyPills\src\views\ItemsView" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -378,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51409000" />
+    <option name="totallyTimeSpent" value="53922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,16 +374,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.4642857" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.0" />
-      <window_info id="npm" order="2" sideWeight="0.31476998" side_tool="true" visible="true" weight="0.054315478" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info id="npm" order="2" sideWeight="0.18787879" side_tool="true" visible="true" weight="0.14434524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.4642857" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32792208" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68523" visible="true" weight="0.054315478" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8121212" visible="true" weight="0.14434524" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.18960468" />
@@ -497,30 +479,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Headline/Headline.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/headline-reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/store.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -606,13 +564,6 @@
     <entry file="file://$PROJECT_DIR$/src/views/InputView/style.scss.d.ts" />
     <entry file="file://$PROJECT_DIR$/src/actions/settings-actions.ts" />
     <entry file="file://$PROJECT_DIR$/src/components/Headline/Headline.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Pills2/src/views/HeadlineView/HeadlineView.tsx" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -753,25 +704,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.localhost.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="86" column="33" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.prod.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/url_config.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -780,20 +718,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/ItemView/ItemsView.tsx">
+    <entry file="file://$PROJECT_DIR$/webpack.localhost.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.prod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/style.scss.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/Link.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/HeaderView.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ItemsView/ItemsView.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="71">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -803,24 +803,7 @@
     <entry file="file://$PROJECT_DIR$/src/views/ItemView/ItemView.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/HeaderView.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/HeadlineView/Link.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>

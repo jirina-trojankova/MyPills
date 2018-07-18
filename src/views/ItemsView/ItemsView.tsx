@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ItemView from './ItemView';
+import ItemView from '../ItemView/ItemView';
 
 const ItemsView = (props) => {
   return  <div>
