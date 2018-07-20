@@ -5,7 +5,7 @@ import { default as Headline } from './components/Headline/Headline';
 import * as style from './main-style.scss';
 import { configureStore } from './services/store';
 import UrlConfig from './url_config';
-import FormView from './views/FormView/FormView';
+import Form from './views/FormView/FormView';
 import HeaderView from './views/HeaderView/HeaderView';
 import ItemsView from './views/ItemsView/ItemsView';
 
@@ -25,7 +25,7 @@ const App = (props) => (
       <HeaderView config={UrlConfig} />
       <div className={style.center}>
         <Headline />
-        <FormView />
+        <Form />
         <ItemsView items={dummyItemArray}></ItemsView>
       </div>
     </div>
