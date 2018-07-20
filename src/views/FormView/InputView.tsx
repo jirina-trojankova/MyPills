@@ -3,10 +3,10 @@ import * as style from './style.scss';
 
 const InputView = (props) => {
 
-  return <div className={`${style.center} ${style.input}`}>
+  return <div className={style.center}>
             <label htmlFor="name">{props.name}</label>
             <br/>
-            <input/>
+            <input className={style.input}/>
           </div>;
 };
 

@@ -23,9 +23,11 @@ const App = (props) => (
   <Provider store={store}>
     <div className={style.page}>
       <HeaderView config={UrlConfig} />
-      <Headline />
-      <ItemsView items={dummyItemArray}></ItemsView>
-      <FormView />
+      <div className={style.center}>
+        <Headline />
+        <ItemsView items={dummyItemArray}></ItemsView>
+        <FormView />
+      </div>
     </div>
   </Provider>
 );

@@ -9,22 +9,49 @@
 }
 
 .input {
-  margin: 5px;
+  border-radius: 4px;
 }
 
 .center {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 5px;
 }
 
 .frame {
   border: solid lightgrey 1px;
-  background-color: aliceblue;
+  background-color: #bbffc3;
   box-shadow: 3px 5px lightgrey;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
+  width: 350px;
+}
+
+.button {
+  background-color: #11750e;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  //text-decoration: none;
+  //display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: 0.5s;
+  font-family: inherit;
+  min-width: 147px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: crimson;
+}
+
+.centerButtons {
+  display: flex;
+  justify-content: space-around;
 }
 
 

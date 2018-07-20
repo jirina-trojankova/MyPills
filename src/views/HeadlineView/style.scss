@@ -6,5 +6,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
+
+
+.button {
+  background-color: #11750e;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  //text-decoration: none;
+  //display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: 0.5s;
+  font-family: inherit;
+}
+
+.button:hover {
+  background-color: crimson;
+}
+
+
+
+
+
 

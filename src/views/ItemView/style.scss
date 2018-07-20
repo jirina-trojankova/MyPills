@@ -1,0 +1,48 @@
+.listItem {
+  border: solid lightgrey 1px;
+  background-color: #bbffc3;
+  box-shadow: 3px 5px lightgrey;
+  border-radius: 4px;
+  margin: 10px;
+  width: auto;
+  min-width: 200px;
+  padding: 5px 10px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin: 0px 15px;
+  align-self: center;
+  font-size: 160%;
+
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 80%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #11750e;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: 0.5s;
+  font-family: inherit;
+  margin: 2px;
+}
+
+.button:hover {
+  background-color: crimson;
+}
+
