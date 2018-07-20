@@ -5,14 +5,12 @@ import { default as Headline } from './components/Headline/Headline';
 import * as style from './main-style.scss';
 import { configureStore } from './services/store';
 import UrlConfig from './url_config';
-import HeaderView from './views/HeadlineView/HeaderView';
+import FormView from './views/FormView/FormView';
+import HeaderView from './views/HeaderView/HeaderView';
 import ItemsView from './views/ItemsView/ItemsView';
-import ItemView from './views/ItemView/ItemView';
 
 const store = configureStore();
-const dummyItem = {
-  name: 'Aspirin',
-};
+
 
 // name is unique
 const dummyItemArray = [
@@ -25,9 +23,9 @@ const App = (props) => (
   <Provider store={store}>
     <div className={style.page}>
       <HeaderView config={UrlConfig} />
-      <Headline myProp={1} />
+      <Headline />
       <ItemsView items={dummyItemArray}></ItemsView>
-      <ItemView item={dummyItem} />
+      <FormView />
     </div>
   </Provider>
 );
