@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ButtonView from '../ButtonView/ButtonView';
 import InputView from './InputView';
 import * as style from './style.scss';
 
@@ -12,7 +13,9 @@ const formProps = [
 
 const FormView = () => {
 
-  return <div className={`${style.center} ${style.frame}`}>
+  return <div className={style.center}>
+          <ButtonView />
+          <div className={style.frame}>
           <div className={style.outerWrapper}>
             <div className={style.innerWrapper}>
               <InputView name="Název" />
@@ -27,7 +30,8 @@ const FormView = () => {
               <button className={`${style.center} ${style.button}`}>Uložit</button>
             </div>
           </div>
-      </div>;
+      </div>
+  </div>;
 };
 
 export default FormView;

@@ -25,8 +25,8 @@ const App = (props) => (
       <HeaderView config={UrlConfig} />
       <div className={style.center}>
         <Headline />
-        <ItemsView items={dummyItemArray}></ItemsView>
         <FormView />
+        <ItemsView items={dummyItemArray}></ItemsView>
       </div>
     </div>
   </Provider>
