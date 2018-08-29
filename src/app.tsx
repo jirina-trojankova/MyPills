@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import { Provider } from 'react-redux';
+import { Provider } from 'unstated';
 import { default as Headline } from './components/Headline/Headline';
+import Items from './components/Items/Items';
 import * as style from './main-style.scss';
-import { configureStore } from './services/store';
 import UrlConfig from './url_config';
+import FooterView from './views/FooterView/FooterView';
 import Form from './views/FormView/FormView';
 import HeaderView from './views/HeaderView/HeaderView';
 import ItemsView from './views/ItemsView/ItemsView';
 
-const store = configureStore();
-
+// const store = configureStore();
 
 // name is unique
 const dummyItemArray = [
@@ -20,14 +20,15 @@ const dummyItemArray = [
 ];
 
 const App = (props) => (
-  <Provider store={store}>
+  <Provider>
     <div className={style.page}>
       <HeaderView config={UrlConfig} />
       <div className={style.center}>
-        <Headline />
+        {/*<Headline />*/}
         <Form />
-        <ItemsView items={dummyItemArray}></ItemsView>
+        <Items/>
       </div>
+      <FooterView />
     </div>
   </Provider>
 );

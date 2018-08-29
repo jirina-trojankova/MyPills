@@ -6,6 +6,7 @@
 .innerWrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .input {
@@ -51,6 +52,3 @@
   display: flex;
   justify-content: space-around;
 }
-
-
-

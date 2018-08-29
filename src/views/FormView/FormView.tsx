@@ -1,19 +1,20 @@
 import * as React from 'react';
+import Items from '../../components/Items/Items';
 import ButtonView from '../ButtonView/ButtonView';
 import InputView from './InputView';
 import * as style from './style.scss';
 
-
-const formProps = [
-  { name: 'Název' },
-  { name: 'Počet tablet' },
-  { name: 'První dávka' },
-  { name: 'Interval' },
-];
-
 const FormView = (props) => {
   const openForm = props.openForm;
   const toggleForm = props.toggleForm;
+
+  // name is unique
+  const dummyItemArray = [
+    {name: 'Aspirin'},
+    {name: 'Panadol'},
+    {name: 'Ibuprofen'},
+  ];
+  
   return <div className={style.center}>
     {!openForm && <ButtonView action={toggleForm}/>}
     {openForm && <div className={style.frame}>
@@ -50,9 +51,11 @@ class Form extends React.Component {
   }
 
   public render() {
-    return <FormView toggleForm={this.toggle.bind(this)} openForm={this.state.openForm}/>;
+    return <div>
+      <Items/>
+      <FormView toggleForm={this.toggle.bind(this)} openForm={this.state.openForm}/>
+          </div>;
   }
 }
-
 
 export default Form;
